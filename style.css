@@ -28,6 +28,7 @@ body {
 
 .navbar {
     background: white;
+    padding: 0rem 2rem;
 }
 .navbar-brand {
     color: white;
@@ -73,12 +74,14 @@ img {
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
     background: rgb(71, 67, 67);
-    color: white;
-    padding: 30px;
     text-align: center;
+}
+
+span {
+    color: white;
+}
+
+.py-3 {
+    border-top: 50px teal;
 }
