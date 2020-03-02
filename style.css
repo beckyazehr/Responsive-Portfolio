@@ -1,5 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-image: url("https://images.unsplash.com/photo-1533628635777-112b2239b1c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+}
+
+.yourName {
+    background: teal;
+    margin-top: 0px;
+    padding: 10px;
+    color: white;
+}
+
+.yourName,
+.card-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.card-title {
+    color: teal;
+}
+
+.navbar {
+    background: white;
+}
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: gray;
 }
 
 .card {
@@ -20,7 +55,7 @@ img {
 }
 
 .footer {
-    position:fixed;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
