@@ -1,54 +1,65 @@
+/*applies to the entire page*/
 * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 
+/*background image for the page*/
 body {
     background-image: url("https://images.unsplash.com/photo-1533628635777-112b2239b1c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
 }
 
-.yourName {
+/*header navbar styling*/
+.navbar {
+    background: white;
+    padding: 0rem 2rem;
+}
+
+.navbar-brand {
     background: teal;
     margin-top: 0px;
     padding: 10px;
     color: white;
-}
-
-.yourName,
-.card-title {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-size: 30px;
 }
 
-.card-title {
-    color: teal;
-}
-
-.navbar {
-    background: white;
-    padding: 0rem 2rem;
-}
-.navbar-brand {
-    color: white;
-}
-
-.nav-link {
+.active-gray {
     color: gray;
 }
+/*end of header navbar styling*/
 
+/*card styling*/
 .card {
     margin: 10px;
 }
 
 .card-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: teal;
     padding: 20px;
+}
+
+.navbar-images {
+    background: teal;
+    margin: -60px 10px 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 0px;
+}
+
+.active-white {
+    color: white;
 }
 
 form {
     padding: 10px;
     margin: 10px;
+    width: 100%;
 }
 
 img {
@@ -59,20 +70,9 @@ img {
     background: teal;
     color: white;
 }
+/*end card styling*/
 
-.navbar-images {
-    background: teal;
-    margin: -60px 10px 10px 10px;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    padding: 0px;
-}
-
-.whiteFont {
-    color: white;
-}
-
+/*footer styling*/
 .footer {
     background: rgb(71, 67, 67);
     text-align: center;

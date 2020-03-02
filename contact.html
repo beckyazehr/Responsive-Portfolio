@@ -20,10 +20,11 @@
 <body>
     <!--This is the navigation bar.-->
     <nav class="navbar navbar-expand-lg">
+        <!--Enter your name here.-->
         <div class="yourName">
-            <a class="navbar-brand yourName" href="index.html">Your Name</a>
+            <a class="navbar-brand" href="index.html">Your Name</a>
         </div>
-
+        <!--These are links to all the webpages available.-->
         <ul class="nav justify-content-right">
             <li class="nav-item">
                 <a class="nav-link active" href="index.html">About</a>
@@ -36,33 +37,41 @@
             </li>
         </ul>
     </nav>
+    <!-- End of the navigation bar.-->
 
-    <!--This is the contact form.-->
+    <!--This is the card with the main content of the page.-->
     <div class="card mb-3" style="max-width: 540px;">
         <div class="container">
-            <div clas="row">
+            <div class="row">
+                <!--Title of the card.-->
                 <div class="col-md-12">
                     <h5 class="card-title">Contact</h5>
                 </div>
+                <!--This is the form for visitors to send a message.-->
                 <form>
+                    <!--Where visitor name is entered.-->
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Name</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
                     </div>
+                    <!--Where visitor email is entered-->
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Email</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1"
                             placeholder="example@gmail.com">
                     </div>
+                    <!--Where visitor message is enterded.-->
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Message</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
+                    <!--Submit button.-->
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
         </div>
     </div>
+    <!-- End of the card.-->
 
     <!--This is the footer.-->
     <footer class="footer mt-auto py-3">
@@ -73,7 +82,8 @@
 
 
 
-    <!--These are at the end of the screen so page loading is faster.-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
