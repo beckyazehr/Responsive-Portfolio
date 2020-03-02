@@ -1,3 +1,7 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1533628635777-112b2239b1c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+}
+
 .card {
     margin: 10px;
 }
@@ -13,4 +17,15 @@ form {
 
 img {
     padding: 10px;
+}
+
+.footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgb(71, 67, 67);
+    color: white;
+    padding: 30px;
+    text-align: center;
 }
