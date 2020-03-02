@@ -54,6 +54,11 @@ img {
     padding: 10px;
 }
 
+.btn-primary {
+    background: teal;
+    color: white;
+}
+
 .footer {
     position: fixed;
     left: 0;
