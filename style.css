@@ -59,6 +59,19 @@ img {
     color: white;
 }
 
+.navbar-images {
+    background: teal;
+    margin: -60px 10px 10px 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 0px;
+}
+
+.whiteFont {
+    color: white;
+}
+
 .footer {
     position: fixed;
     left: 0;
