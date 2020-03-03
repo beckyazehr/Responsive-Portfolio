@@ -88,3 +88,28 @@ img {
 span {
     color: white;
 }
+
+/*making the navbar responsive*/
+@media only screen and (max-width: 640px) {
+.navbar-brand {    
+    width: 100%;
+}
+
+.nameLine {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.div-ul {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+ul {
+    justify-content: center;
+}
+
+}
