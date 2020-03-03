@@ -19,23 +19,32 @@
 
 <body>
     <!--This is the navigation bar.-->
-    <nav class="navbar navbar-expand-lg">
-        <!--Enter your name here.-->
-        <div class="yourName">
-            <a class="navbar-brand" href="index.html">Your Name</a>
+    <nav class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <!--Enter your name here.-->
+                    <div class="yourName">
+                        <a class="navbar-brand" href="index.html">Your Name</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!--These are links to all the webpages available.-->
+                    <ul class="nav justify-content-right">
+                        <li class="nav-item">
+                            <a class="nav-link active active-gray" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active active-gray" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active active-gray" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <!--These are links to all the webpages available.-->
-        <ul class="nav justify-content-right">
-            <li class="nav-item">
-                <a class="nav-link active active-gray" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active active-gray" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active active-gray" href="contact.html">Contact</a>
-            </li>
-        </ul>
     </nav>
     <!-- End of the navigation bar.-->
 
@@ -74,9 +83,7 @@
 
     <!--This is the footer.-->
     <footer class="footer mt-auto py-3">
-        <div class="container">
             <span>Copyright 2020</span>
-        </div>
     </footer>
 
 

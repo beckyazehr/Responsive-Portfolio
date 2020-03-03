@@ -16,6 +16,12 @@ body {
     padding: 0rem 2rem;
 }
 
+.container {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
 .navbar-brand {
     background: teal;
     margin-top: 0px;
